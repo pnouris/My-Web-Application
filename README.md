@@ -5,7 +5,7 @@ Philippos Nouris
 
 This assignment is a web application providing a REST API and angular front-end to allow CRUD operations on workers entities.
 
-Tech Used: Spring Boot, AngularJS, Keycloak (Authenticator), lombok.jar, MySQL Community Service, MySQL Workbench
+# Tech Used: Spring Boot, AngularJS, Keycloak (Authenticator), lombok.jar, MySQL Community Service, MySQL Workbench
 
 •	Download and Install Lombok.jar to eclipse
 •	Start Keycloak on port 8080
