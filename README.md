@@ -11,7 +11,7 @@ This assignment is a web application providing a REST API and angular front-end 
 * Start Keycloak on port 8080
 * Import the Realm master-realm.json in to Keyclaok
 * Using Eclipse Import folder Philip as an existing maven project
-* Run application as Maven Build (set Goals spring-boot:run)
+* Run application as Maven Build (write in Goals: spring-boot:run)
 * Access the application at http://localhost:8000/
 * Login (username: admin pass:admin)
 
