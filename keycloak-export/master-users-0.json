@@ -1,0 +1,73 @@
+{
+  "realm" : "master",
+  "users" : [ {
+    "id" : "3297a6ef-fc31-4587-8b33-999ea6ebdece",
+    "createdTimestamp" : 1493502422540,
+    "username" : "admin",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : false,
+    "credentials" : [ {
+      "type" : "password",
+      "hashedSaltedValue" : "4QgLAY3mPFQn7d+hi+XiXsImateYdj10JlTPhPTup6HV4hdmD0aY2b6hsCh0gQE+0h8bhh9GFtYnKD/QqsEbHA==",
+      "salt" : "+H0Rer8hswFWyBdcdHRTcQ==",
+      "hashIterations" : 20000,
+      "counter" : 0,
+      "algorithm" : "pbkdf2",
+      "digits" : 0,
+      "period" : 0,
+      "createdDate" : 1493502422694,
+      "config" : { }
+    } ],
+    "disableableCredentialTypes" : [ "password" ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "offline_access", "uma_authorization", "admin" ],
+    "clientRoles" : {
+      "account" : [ "manage-account", "view-profile" ]
+    },
+    "groups" : [ ]
+  }, {
+    "id" : "c6ef2466-1e92-435d-bc4a-69a44ba33c01",
+    "createdTimestamp" : 1493505396904,
+    "username" : "nouris",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : false,
+    "credentials" : [ {
+      "type" : "password",
+      "hashedSaltedValue" : "5MOr7ujzrVVe/W66r1iGuwkHTX9z4gXuVf3k3qyeXJ5FHjJtsWt+5QjEOLmE6jsmma/A7Eo7PqEM7E6rYiR7Fw==",
+      "salt" : "jJLkkcr26uEzs0R1jQD0pA==",
+      "hashIterations" : 20000,
+      "counter" : 0,
+      "algorithm" : "pbkdf2",
+      "digits" : 0,
+      "period" : 0,
+      "createdDate" : 1493505461731,
+      "config" : { }
+    } ],
+    "disableableCredentialTypes" : [ "password" ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "manager", "offline_access", "uma_authorization" ],
+    "clientRoles" : {
+      "account" : [ "manage-account", "view-profile" ]
+    },
+    "groups" : [ ]
+  }, {
+    "id" : "390a3de1-d163-455d-bf7b-1bc1fd3c75bc",
+    "createdTimestamp" : 1493506149557,
+    "username" : "service-account-back-end",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : false,
+    "email" : "service-account-back-end@placeholder.org",
+    "serviceAccountClientId" : "back-end",
+    "credentials" : [ ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "offline_access", "uma_authorization" ],
+    "clientRoles" : {
+      "account" : [ "manage-account", "view-profile" ]
+    },
+    "groups" : [ ]
+  } ]
+}
