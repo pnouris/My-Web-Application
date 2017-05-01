@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: project-ci224
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: pnour
+Implementation-Vendor-Id: nouris
+Build-Jdk: 1.8.0_92
+Implementation-URL: http://projects.spring.io/spring-boot/project-ci22
+ 4/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: com.nouris.project.Project
+

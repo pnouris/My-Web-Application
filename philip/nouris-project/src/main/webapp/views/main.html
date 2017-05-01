@@ -1,0 +1,64 @@
+<div class="container">
+
+    <div class="page-content">
+        <h4>Angular is {{status}}</h4>
+        <h5>You're logged in as:</h5>
+        
+        Id: {{profile.id}}
+        <p/>
+        Username: {{profile.username}}
+        <p/>
+        Email: {{profile.email}}
+        <p/>
+        Full Name: {{profile.firstName}} {{profile.lastName}}
+        
+        <p/>
+        
+        <button name="Logout" ng-click="logout()">Logout</button>
+        
+        <div ng-show="isManager">
+        	<h3>Only managers can see this</h3>
+	        <button name="getWorkers" ng-click="getWorkers()">Get workers</button>
+        	<p/>
+	        
+	        Workers:
+	        <ul ng-repeat="worker in workers">
+	        	<li>{{worker.firstName}} {{worker.lastName}}</li>
+	        </ul>
+        </div>
+        
+        <div ng-show="isAdmin">
+        	<h3>Only admins can see this</h3>
+		    <div class="form-group">
+		        <label>First Name</label>
+		        <input type="text" name="name" class="form-control" ng-model="user.firstName">
+		    </div>
+		    <div class="form-group">
+		        <label>Last Name</label>
+		        <input type="text" name="username" class="form-control" ng-model="user.lastName">
+		    </div>
+		    <button name="addWorker" ng-click="addWorker()">Add worker</button>
+		    <p/>
+	        <button name="getWorkers" ng-click="getWorkers()">Get workers</button>
+        	<p/>
+	        
+	        Workers:
+	        <ul ng-repeat="worker in workers">
+	        	<li>{{worker.firstName}} {{worker.lastName}}</li>
+	        </ul>
+	        
+	        <button name="getShifts" ng-click="getShifts()">Get shifts</button>
+        	<p/>
+	        
+	        Shifts:
+	        <ul ng-repeat="shift in shifts">
+	        	<li>{{shift.day}} - {{shift.period}}</li>
+	        	<button name="getShiftWorkers" ng-click="getShiftWorkers(shift._links.workers.href)">Get shift workers</button>
+	        </ul>
+	        Shift Workers:
+	        <ul ng-repeat="worker in shiftWorkers">
+	        	<li>{{worker.firstName}} {{worker.lastName}}</li>
+	        </ul>
+        </div>
+    </div>
+</div>

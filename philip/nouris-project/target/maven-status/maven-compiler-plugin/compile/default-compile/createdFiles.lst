@@ -1,0 +1,11 @@
+com\nouris\project\api\domain\Day.class
+com\nouris\project\api\domain\Period.class
+com\nouris\project\api\domain\WorkerRepository.class
+com\nouris\project\security\web\resolver\UserDetailsArgumentResolver.class
+com\nouris\project\security\web\config\WebConfig.class
+com\nouris\project\security\domain\UserDetails.class
+com\nouris\project\security\domain\CurrentUser.class
+com\nouris\project\api\domain\Shift.class
+com\nouris\project\api\domain\ShiftRepository.class
+com\nouris\project\api\domain\Worker.class
+com\nouris\project\Project.class
