@@ -19,5 +19,5 @@ This assignment is a web application providing a REST API and angular front-end 
 
 
 
-__#####Reference__:
+##### Reference:
 http://slackspace.de/articles/authentication-with-spring-boot-angularjs-and-keycloak/
