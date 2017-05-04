@@ -11,9 +11,9 @@ This assignment is a web application providing a REST API and angular front-end 
 
 * Download and Install Lombok.jar to eclipse
 
-* Start Keycloak on port 8080
+* Import the Realm master-realm.json in to Keyclaok ( bin/standalone.bat -Dkeycloak.migration.action=import -Dkeycloak.migration.provider=singleFile -Dkeycloak.migration.file=master-realm.json -Dkeycloak.migration.strategy=OVERWRITE_EXISTING)
 
-* Import the Realm master-realm.json in to Keyclaok
+* Start Keycloak on port 8080
 
 * Using Eclipse Import folder Philip as an existing maven project
 
