@@ -1,7 +1,7 @@
 # Web App Assignment
 
 
-Philippos Nouris
+By Philippos Nouris
 
 This assignment is a web application providing a REST API and angular front-end to allow CRUD operations on workers entities.
 
